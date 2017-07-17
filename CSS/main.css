@@ -23,6 +23,7 @@ html{
   position: relative;
   overflow-y: scroll;
 }
+
 body{
 	font-family: "はんなり明朝", Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   background-color: rgb(50, 48, 48);
@@ -33,10 +34,16 @@ body{
   width: 100%;
   height: 100%;
 }
+/*余白なくす*/
+.wrap{
+  overflow: hidden;
+}
 
 /*--画像--*/
 img{
-  width: 80%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*--文章--*/
 p{
@@ -61,7 +68,7 @@ p{
 /*-----ヘッダ------*/
 #pageHead .container {
   margin: 0 auto;
-  padding: 40px;
+  padding: 0px;
   width: 100%;
 }
 
@@ -101,7 +108,7 @@ p{
 
 #pageHead p{
   font-size: 3vw;
-  padding: 2px;
+  padding: 0px;
 }
 
 #pageHead .HeadVisual{
@@ -111,10 +118,10 @@ p{
 
 #pageHead .HeadVisualtext{
   position: absolute;
-  left: 10%;
-  bottom: 10%;
-  width: 40vw;
-  height: 20vw;
+  left: 8%;
+  bottom: 2%;
+  width: 50%;
+  height: auto;
   background-color: rgba(125, 125, 125, 0.6);
   text-align: center;
   -moz-box-sizing: border-box;
