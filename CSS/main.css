@@ -17,7 +17,6 @@ src: url("../COM4tNuvu-R_win/COM4NRG_.TTF");
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
 
 html{
-  max-width: 800px;
   min-width: 100px;
   margin: 0 auto;
   background: rgb(50, 48, 48);
