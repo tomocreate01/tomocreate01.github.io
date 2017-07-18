@@ -16,6 +16,15 @@
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 </head>
 <body>
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <div id="totop">
 	<a href="#pageHead">↑</a>
 </div>
@@ -136,6 +145,9 @@
     <div class="ggmap"><iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.545029492007!2d133.77696671501158!3d34.69143058043679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3556aab2fc6cc11d%3A0xd527741060222184!2z5bKh5bGx55yM56uL5aSn5a2m!5e0!3m2!1sja!2sjp!4v1499795617062" width="0" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
   </div>
+  <!--いいねボタン-->
+  <div class="fb-like" data-href="https://www.facebook.com/profile.php?id=100009365408865" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+  <!--CopyRight-->
   <p id="copyright"><small><center>Copyright&copy; 2017 Mizuho Tomochika. All Rights Reserved.</center></small></p>
 </div>
   </body>
