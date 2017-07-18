@@ -239,7 +239,16 @@ h4{
 }
 /*-----me-----*/
 
-#me .me-title{
+
+.me-plofile {
+  margin-left: auto;
+  margin-right: auto;
+  width:40%;
+  text-align: left;
+
+}
+
+/*#me .me-title{
   margin-left: auto;
   margin-right: auto;
   text-align: left;
@@ -250,7 +259,7 @@ h4{
   margin-right: auto;
   text-align: left;
   width: 30%;
-}
+}*/
 /*----- 地図-----*/
 #Map{
   padding: 3px;
