@@ -96,7 +96,7 @@ img{
 }
 
 #pageHead .headerMenu{
-  height: 36px;
+  height: 6%;
    font-size: 85%;
    background: rgb(50, 48, 48);
    position: fixed;
@@ -104,6 +104,18 @@ img{
    left: 0;
    width: 100%;
    z-index: 9999;
+}
+@media screen and (max-width:640px){
+#pageHead .headerMenu{
+  height: 4%;
+   font-size: 85%;
+   background: rgb(50, 48, 48);
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 9999;
+}
 }
 .headerFixed {
    position: fixed;
