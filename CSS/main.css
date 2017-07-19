@@ -95,7 +95,21 @@ img{
   text-align: center;
 }
 
+#pageHead .headerMenu{
+  height: 36px;
+   font-size: 85%;
+   background: rgb(50, 48, 48);
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 9999;
+}
+
 #pageHead .globalNavi{
+  position: fixed;
+   top: 0;
+   left: 0;
   width: 100%;
 }
 

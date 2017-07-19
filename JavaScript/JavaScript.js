@@ -32,3 +32,17 @@ $(function(){
     speed: 2000,
   });
 });
+
+<!--メニューバー固定-->
+$(function() {
+  var headerMenu = $('.headerMenu');
+  var headerMenuTop = headerMenu.offset().top;
+  $(window).scroll(function () {
+     var winTop = $(this).scrollTop();
+     if (winTop >= headerMenuTop) {
+        headerMenu.addClass('headerFixed')
+     } else if (winTop <= headerMenuTop) {
+        headerMenu.removeClass('headerFixed')
+     }
+  });
+});
