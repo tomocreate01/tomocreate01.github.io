@@ -165,15 +165,30 @@ img{
   width: auto;
 }
 
-#pageHead .facebook a{
-
+#pageHead .facebook-pc a{
+overflow-x: hidden;
   z-index: 1500;
   position: fixed;
   bottom: 85px;
   right: 5px;
   border-style: none;
 }
-
+#pageHead .facebook-smart{
+  display: none;
+}
+@media screen and (max-width:640px){
+  #pageHead .facebook-pc a{
+    display: none;
+  }
+  #pageHead .facebook-smart{
+    overflow-x: hidden;
+      z-index: 1500;
+      position: fixed;
+      bottom: 85px;
+      right: 5px;
+      border-style: none;
+  }
+}
 
 #pageHead .HeadVisual{
   position: relative;
