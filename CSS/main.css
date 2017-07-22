@@ -77,7 +77,7 @@ img{
   z-index: 1500;
   position: fixed;
   bottom: 40px;
-  right: 18px;
+  right: 23px;
   font-weight: 900;
   color:rgb(31, 30, 30);
   background-color: rgba(125, 125, 125, 0.6);
@@ -166,10 +166,11 @@ img{
 }
 
 #pageHead .facebook a{
+
   z-index: 1500;
   position: fixed;
   bottom: 85px;
-  right: 1px;
+  right: 5px;
   border-style: none;
 }
 
