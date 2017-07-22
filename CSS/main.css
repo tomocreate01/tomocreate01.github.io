@@ -168,8 +168,8 @@ img{
 
 #pageHead .facebook a{
   position: absolute;
-  top:0;
-  right: 0;
+  top:2px;
+  right: 5px;
   margin: 1px 0px;
   padding: 5px 10px;
   border: none;
